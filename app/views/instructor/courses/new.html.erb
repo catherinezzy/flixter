@@ -5,6 +5,9 @@
     <%= f.input :title %>
     <%= f.input :description %>
     <%= f.input :cost %>
+    <%= f.input :image %>
+    <%= image_tag @course.image %>
+    <%= image_tag @course.image, class: 'img-responsive' %>
     <br />
     <%= f.submit "Create", class: 'btn btn-primary' %>
     <br />
