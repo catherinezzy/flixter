@@ -1,6 +1,7 @@
 AWS_ACCESS_KEY: "AKIAIYJFWRKRCUMW2HXQ"
 AWS_SECRET_KEY: "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"
-AWS_BUCKET: "ziyueflixter"
+AWS_BUCKET: 	"ziyueflixter"
+AWS_REGION:     "us-east-1"
 
 # Add configuration values here, as shown below.
 #
