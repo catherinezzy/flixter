@@ -10,6 +10,8 @@ class LessonsController < ApplicationController
     current_course = current_lesson.section.course
 
     if current_user && current_user.enrolled_in?(current_course)
+      redirect_to current_lesson
+    else
       redirect_to course_path(current_course), alert: 'Please enroll in this course to view its lessons'
     end
   end
