@@ -2,6 +2,8 @@ AWS_ACCESS_KEY: "AKIAIYJFWRKRCUMW2HXQ"
 AWS_SECRET_KEY: "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"
 AWS_BUCKET: 	"ziyueflixter"
 AWS_REGION:     "us-east-1"
+SECRET_KEY: sk_test_IIyS1ehzAjKWdu4Gdl4AShiK
+PUBLISHABLE_KEY: pk_test_WU6mL7ogpXdm53KnWPLr2rs2
 
 # Add configuration values here, as shown below.
 #
